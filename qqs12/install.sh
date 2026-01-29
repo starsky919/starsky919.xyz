@@ -22,7 +22,7 @@ elif exists pkg; then
   echo "未检测到 FFmpeg, 正在安装...'"
   pkg install ffmpeg
 else
-  echo "未检测到 FFmpeg ,正在下载..."
+  echo "未检测到 FFmpeg, 正在下载..."
   curl -fsSL https://starsky919.xyz/ffmpeg -o $PREFIX/bin/ffmpeg
   chmod 0755 $PREFIX/bin/ffmpeg
 fi
